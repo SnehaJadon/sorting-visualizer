@@ -165,10 +165,10 @@ function Control({
             onChange={(e) => handleAlgorithm(e.target.value)}
             value={selectedSorting}
         >
-          <option value="">Select Sorting</option>
+          <option value="" style={{color: "gray", opacity: 0.9}}>Select Sorting</option>
           <option value="bubbleSort">Bubble Sorting</option>
           <option value="mergeSort">Merge Sort</option>
-          <option value="selectionSort">SelectionSort Sort</option>
+          <option value="selectionSort">Selection Sort</option>
         </select>
       </div>
       <div
